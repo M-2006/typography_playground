@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif; /* Sets the default font family */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  background-color: #f0f0f0; /* Sets the background color */
+  display: flex; /* Uses flexbox for layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Sets the height to 100% of the viewport height */
+  margin-left: auto; /* Auto margin for centering */
+  margin-right: auto; /* Auto margin for centering */
+}
+
+.container {
+  width: 80%; /* Sets the width of the container */
+  padding: 20px; /* Adds padding inside the container */
+  background-color: #fff; /* Sets the background color of the container */
+  border-radius: 10px; /* Adds border radius to the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the container */
+}
+
+h1 {
+  text-align: center; /* Centers the heading text */
+  color: #333; /* Sets the color of the heading text */
+}
+
+.controls {
+  margin-bottom: 20px; /* Adds margin at the bottom of the controls */
+  text-align: center; /* Centers the text inside the controls */
+}
+
+.controls label {
+  margin-right: 10px; /* Adds margin between labels and inputs */
+}
+
+.controls select, .controls input {
+  padding: 5px; /* Adds padding to select and input elements */
+  border-radius: 3px; /* Adds border radius to select and input elements */
+  border: 1px solid #ccc; /* Adds border to select and input elements */
+  margin-right: 10px; /* Adds margin between select and input elements */
+}
+
+.custom-text {
+  margin-bottom: 20px; /* Adds margin at the bottom of the custom text */
+  text-align: center; /* Centers the text inside the custom text */
+}
+
+.custom-text label {
+  display: block; /* Displays labels as block elements */
+  margin-bottom: 5px; /* Adds margin between labels */
+}
+
+.custom-text textarea {
+  width: 80%; /* Sets the width of the textarea */
+  padding: 5px; /* Adds padding to the textarea */
+  border: 1px solid #ccc; /* Adds border to the textarea */
+  border-radius: 3px; /* Adds border radius to the textarea */
+  resize: vertical; /* Allows vertical resizing of the textarea */
+}
+
+.preview {
+  border: 1px solid #ccc; /* Adds border to the preview */
+  padding: 10px; /* Adds padding inside the preview */
+  margin-bottom: 20px; /* Adds margin at the bottom of the preview */
+  text-align: center; /* Centers the text inside the preview */
+}
+
+footer {
+  position: fixed; /* Fixes the footer to the bottom of the viewport */
+  bottom: 0; /* Aligns the bottom of the footer to the bottom of the viewport */
+  right: 0; /* Aligns the right of the footer to the right of the viewport */
+  padding: 10px; /* Adds padding inside the footer */
+  background-color: #505050; /* Sets the background color of the footer */
+  color: #fff; /* Sets the text color of the footer */
+  text-align: right; /* Aligns the text to the right inside the footer */
+  width: 100%; /* Sets the width of the footer to 100% */
+}
+
+footer span {
+  margin-right: 50px; /* Adds margin between span elements inside the footer */
+}
